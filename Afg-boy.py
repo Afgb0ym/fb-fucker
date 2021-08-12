@@ -174,3 +174,4 @@ def mohammad():
 
 
 if __name__ == '__main__':
+    Mohammad()
