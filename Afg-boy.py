@@ -78,7 +78,7 @@ cpb = []
 oks = []
 id = []
 
-def Cybery():
+def Mohammad():
     os.system('clear')
     print logo
     print 42 * '~'
@@ -174,4 +174,4 @@ def mohammad():
 
 
 if __name__ == '__main__':
-    Afgboy()
+    Mohammad()
